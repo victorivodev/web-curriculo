@@ -12,13 +12,15 @@
 <body>
 
     <header class="header">
-        <img src="./img/logo.svg" alt="logo" class="home">
+        <h1>Victor Souza</h3>
         <nav>
             <ul class="header-menu">
                 <li><a href="#experiencia">Experiência</a></li>
                 <li><a href="#formacao">Formação</a></li>
                 <li><a href="#projetos">Projetos</a></li>
                 <li><a href="#contato">Contato</a></li>
+                <button class="btnLanguage" onclick="changeLanguage()">Change to English</button>
+
             </ul>
         </nav>
     </header>
@@ -26,8 +28,8 @@
     <main class="introducao">
         <img src="./img/logotipo.jpeg" alt="Logotipo" class="logo">
         <div>
-            <h1>Análise de sistemas e Desenvolvimento de Software</h1>
-            <p>Victor Ivo de Souza <br>  São Paulo - Capital</p>
+            <h1>Desenvolvedor de Software | Análise de Sistemas</h1>
+            São Paulo - Capital</p>
         </div>
     </main>
 
@@ -35,43 +37,8 @@
         <h2 class="subtitulo">Experiência</h2>
         <div>
             
-
             <div class="empresa">
-                <span class="empresa-ano">2019 - 2020</span>
-                <h3 class="empresa-titulo">Tribunal de Justiça - SP</h3>
-                <span class="empresa-titulo">Estagiário</span>
-                <p class="empresa-texto">
-                    - Atendimento ao público. <br>
-                    - Organização de processos e documentos jurídicos. <br>
-                    - Autenticação de documentos jurídicos. <br>
-                    - Realizar reorganização completa de processos e
-                    petições do cartório. <br></p>
-                <ul class="empresa-habilidades">
-                    <li>Organização</li>
-                    <li>Procedimentos Jurídicos</li>
-                </ul>
-            </div>
-
-            <div class="empresa">
-                <span class="empresa-ano">2020</span>
-                <h3 class="empresa-titulo">Pizza Vila Yara</h3>
-                <span class="empresa-titulo">Gerente</span>
-                <p class="empresa-texto">
-                    - Responsável pelo atendimento ao cliente. <br>
-                    - Gerenciava equipes para distribuição de tarefas. <br>
-                    - Realizava cotação de preços e disponibilidade de
-                    entrega de mercadoria. <br>
-                    - Conferência e fechamento de caixa. <br>
-                    </p>
-                <ul class="empresa-habilidades">
-                    <li>Atendimento ao público</li>
-                    <li>Liderança</li>
-                    <li>Desenvolvimento de equipes</li>
-                </ul>
-            </div>
-
-            <div class="empresa">
-                <span class="empresa-ano">2021</span>
+                <span class="empresa-ano">2021 - 2023</span>
                 <h3 class="empresa-titulo">Suhai Seguradora</h3>
                 <span class="empresa-titulo">Estagiário de TI</span>
                 <p class="empresa-texto">
@@ -89,8 +56,43 @@
                     <li>Kanban</li>
                 </ul>
             </div>
+
+            <div class="empresa">
+                <span class="empresa-ano">2020 - 2021</span>
+                <h3 class="empresa-titulo">Pizza Vila Yara</h3>
+                <span class="empresa-titulo">Gerente</span>
+                <p class="empresa-texto">
+                    - Responsável pelo atendimento ao cliente. <br>
+                    - Gerenciava equipes para distribuição de tarefas. <br>
+                    - Realizava cotação de preços e disponibilidade de
+                    entrega de mercadoria. <br>
+                    - Conferência e fechamento de caixa. <br>
+                </p>
+                <ul class="empresa-habilidades">
+                    <li>Atendimento ao público</li>
+                    <li>Liderança</li>
+                    <li>Desenvolvimento de equipes</li>
+                </ul>
+            </div>
+            
+            <div class="empresa">
+                <span class="empresa-ano">2019 - 2020</span>
+                <h3 class="empresa-titulo">Tribunal de Justiça - SP</h3>
+                <span class="empresa-titulo">Estagiário</span>
+                <p class="empresa-texto">
+                    - Atendimento ao público. <br>
+                    - Organização de processos e documentos jurídicos. <br>
+                    - Autenticação de documentos jurídicos. <br>
+                    - Realizar reorganização completa de processos e
+                    petições do cartório. <br></p>
+                <ul class="empresa-habilidades">
+                    <li>Organização</li>
+                    <li>Procedimentos Jurídicos</li>
+                </ul>
+            </div>
+    
         </div>
-    </section>
+        </section>
 
     <section class="formacao" id="formacao" aria-label="Formação">
         <div class="formacao-container">
@@ -186,7 +188,6 @@
             </div>
         </div>
   </section>
-
     <footer class="footer" id="contato">
         <div class="footer-container">
             <p class="footer-texto">Estou disponível para novos projetos no momento. 
@@ -194,12 +195,18 @@
             <ul class="footer-contato">
                 <li>victorivo.comercial@gmail.com</li>                
                 <li>+55 11 94399-6829</li>
-                <li><a href="https://www.linkedin.com/in/victorivosouza/">Linkedin</a></li>
+                <li><a href="https://www.linkedin.com/in/victorivosouza/"><i class="fab fa-linkedin"></i>Linkedin</a></li>
+                <li><a href="https://github.com/victorivodev"><i class="fab fa-github"></i>Github</a></li>
             </ul>
             <p class="footer-copy">Todos direitos reservados.</p>
         </div>
     </footer>
     <script src="https://kit.fontawesome.com/fb5ad59cde.js" crossorigin="anonymous"></script>
+    <script>
+        function changeLanguage() {
+            window.location.href = 'index-en.html'; // Redireciona para a versão em Inglês
+        }
+    </script>
 </body>
 
 </html>

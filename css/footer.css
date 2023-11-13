@@ -44,3 +44,11 @@
         font-size: 1.5rem;
     }
 }
+
+.footer-contato a i {
+    margin-right: 5px; /* Ajuste a margem conforme necessário */
+}
+
+.footer-contato a:hover {
+    color: #67dd0a  ; /* Cor desejada ao passar o mouse (pode ajustar conforme preferir) */
+}
